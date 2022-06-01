@@ -1,11 +1,74 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
+  background: linear-gradient(45deg, #ffb5c4, #b0bdff);
+  background-color: aliceblue;
+}
+
+.nav-container {
+  background-color: rgb(255, 247, 236);
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#about-this-site {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+#about-me {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#profile {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+.sns-container {
+  background-color: rgb(255, 247, 236);
+}
+
+.sns-bar {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
 }

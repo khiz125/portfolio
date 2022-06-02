@@ -7,7 +7,7 @@
 
 body {
   background: linear-gradient(45deg, #ffe6ea, #d8dfff);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .nav-container {
@@ -15,7 +15,7 @@ body {
   background-color: aliceblue;
   position: fixed;
   opacity: 0.8;
-  padding: 1% 5% 1% 0;
+  padding: 1% 2% 1% 0;
 }
 
 .navbar {
@@ -55,14 +55,28 @@ body {
 
 #job-experience {
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
 }
 
+#job-history {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  row-gap: 10%;
+  margin: 5% 10%;
+}
+
+.job-photo {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: #d8dfff;
+}
 
 
 footer {
@@ -93,9 +107,8 @@ footer {
 
 li {
   list-style: none;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 20px;
+  text-decoration: none;
+  margin: 0 2%;
 }
 
 li > a {

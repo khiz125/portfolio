@@ -6,12 +6,16 @@
 }
 
 body {
-  background: linear-gradient(45deg, #ffb5c4, #b0bdff);
-  background-color: aliceblue;
+  background: linear-gradient(45deg, #ffe6ea, #d8dfff);
+  font-size: 1.5rem;
 }
 
 .nav-container {
-  background-color: rgb(255, 247, 236);
+  width: 100vw;
+  background-color: aliceblue;
+  position: fixed;
+  opacity: 0.8;
+  padding: 1% 5% 1% 0;
 }
 
 .navbar {
@@ -22,7 +26,6 @@ body {
 #about-this-site {
   width: 100vw;
   height: 100vh;
-  background-color: aliceblue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,10 +43,19 @@ body {
   text-align: center;
 }
 
-#profile {
+#coding-history {
   width: 100vw;
   height: 100vh;
-  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#job-experience {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,11 +66,24 @@ body {
 
 
 footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  background-color: #ffc4ce;
+  width: 100vw;
+  height: 20vh;
+}
+
+#bottom {
+  min-height: 20vh;
+  line-height: 20vh;
 }
 
 .sns-container {
-  background-color: rgb(255, 247, 236);
+  background-color: rgb(255, 218, 167);
+  margin: 0;
+  padding: 1% 0;
+  bottom: 0;
 }
 
 .sns-bar {
@@ -71,4 +96,9 @@ li {
   height: 50px;
   line-height: 50px;
   padding: 0 20px;
+}
+
+li > a {
+  color: rgb(236, 96, 96);
+  text-decoration: none;
 }
